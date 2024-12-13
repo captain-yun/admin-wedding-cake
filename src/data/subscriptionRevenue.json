@@ -1,0 +1,5 @@
+{
+  "categories": ["Basic", "Premium", "VIP", "Platinum"],
+  "revenue": [1200000, 2500000, 1800000, 3200000],
+  "subscribers": [150, 200, 80, 40]
+} 

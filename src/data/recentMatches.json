@@ -1,0 +1,22 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "date": "2024-03-07",
+      "male": "김철수",
+      "female": "이영희",
+      "status": "성공",
+      "location": "서울",
+      "matchType": "Premium"
+    },
+    {
+      "id": 2,
+      "date": "2024-03-07",
+      "male": "박민수",
+      "female": "정미영",
+      "status": "대기중",
+      "location": "부산",
+      "matchType": "Basic"
+    }
+  ]
+} 

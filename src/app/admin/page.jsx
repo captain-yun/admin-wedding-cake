@@ -1,7 +1,8 @@
-import { StatCard } from "@/components/dashboard/StatCard";
-import { DailyMatchingChart } from "@/components/dashboard/DailyMatchingChart";
-import { AgeDistributionChart } from "@/components/dashboard/AgeDistributionChart";
-import { RecentMatchesGrid } from "@/components/dashboard/RecentMatchesGrid";
+import dynamic from 'next/dynamic';
+
+const StatCard = dynamic(() => import('@/components/dashboard/StatCard'), {
+  ssr: false
+});
 
 export default function AdminDashboard() {
   return (
@@ -14,15 +15,6 @@ export default function AdminDashboard() {
         <StatCard title="신규 가입" value="56" trend="+8%" />
         <StatCard title="활성 구독" value="789" trend="+3%" />
       </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <DailyMatchingChart />
-        <AgeDistributionChart />
-      </div>
-
-      <div className="w-full">
-        <RecentMatchesGrid />
-      </div>
     </div>
   );
-}
+} 
