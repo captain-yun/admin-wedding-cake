@@ -2,7 +2,8 @@
 
 import React from 'react';
 
-export default function StatCard(props) {
+export function StatCard(props) {
+  console.log(props);
   const { title, value, trend } = props;
   
   if (!title || !value) return null;

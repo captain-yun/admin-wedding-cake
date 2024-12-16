@@ -1,8 +1,10 @@
 'use client';
 
+import React from 'react';
 import StatCard from '@/components/dashboard/StatCard';
 
-export default function AdminDashboard() {
+// 컴포넌트 정의
+const AdminPage = () => {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">대시보드</h1>
@@ -31,4 +33,7 @@ export default function AdminDashboard() {
       </div>
     </div>
   );
-} 
+};
+
+// 컴포넌트 내보내기
+export default AdminPage; 

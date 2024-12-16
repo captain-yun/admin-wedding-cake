@@ -16,12 +16,12 @@ export default function AdminDashboard() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <DailyMatchingChart />
-        <AgeDistributionChart />
+        {/* <DailyMatchingChart />
+        <AgeDistributionChart /> */}
       </div>
 
       <div className="w-full">
-        <RecentMatchesGrid />
+        {/* <RecentMatchesGrid /> */}
       </div>
     </div>
   );
